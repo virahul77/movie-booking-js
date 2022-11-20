@@ -121,7 +121,7 @@ main{
 input{
     background-color: rgb(143, 84, 84);
     border-radius: 10px;
-    width: 200px;
+    width: 400px;
     height: 35px;
     padding: .6rem 1rem;
     text-align: center;
@@ -152,7 +152,9 @@ input::placeholder{
 }
 
 #submitBtn{
+    display: block;
     width: 200px;
+    margin: auto;
     padding: 0.6rem 1rem;
     color: white;
     font-size: large;
