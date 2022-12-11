@@ -210,3 +210,31 @@ input::placeholder{
     margin: 2rem;
     padding: 2rem;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    #booker{
+        /* padding: 1rem; */
+    }
+    #booker-grid-holder{
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+        margin: 0.5rem;
+    }
+    .seat{
+        transform: scale(0.7);
+    }
+    
+    #confirm-purchase h3{
+        text-align: center;
+    }
+    #modal{
+        box-sizing: border-box;
+        width: 80vmin;
+        left: 10vmin;
+        top: 20vmin;
+        height: unset;
+    }
+  }
